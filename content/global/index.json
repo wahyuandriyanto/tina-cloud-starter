@@ -9,10 +9,6 @@
     "color": "default",
     "nav": [
       {
-        "href": "contact",
-        "label": "Contact us"
-      },
-      {
         "href": "",
         "label": "Home"
       },
@@ -23,6 +19,10 @@
       {
         "href": "posts",
         "label": "Blog"
+      },
+      {
+        "href": "Contact-us",
+        "label": "Contact us"
       }
     ]
   },
