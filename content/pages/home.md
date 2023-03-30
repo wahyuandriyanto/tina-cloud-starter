@@ -1,6 +1,31 @@
 ---
 title: Tina Cloud Starter
 blocks:
+  - headline: Welcome to the Tina Starter
+    text: >
+      This project is set up to show you the basics of working with Tina. You're
+      looking at the landing page, which pulls content from
+      content/pages/home.md, components from components/blocks, and puts them
+      all together in pages/\[filename].tsx, all based on a schema defined in
+      .tina/schema.ts.
+    actions:
+      - label: Action Label
+        type: button
+        icon: true
+        link: /
+      - label: Get Started
+        type: button
+        icon: true
+        link: /posts
+      - label: Read Blog
+        type: link
+        icon: false
+        link: /posts
+    image:
+      src: /uploads/Group 34217.png
+      alt: ''
+    color: default
+    _template: hero
   - quote: >-
       There are only two hard things in Computer Science: cache invalidation and
       naming things.
@@ -87,31 +112,7 @@ blocks:
           This is where you might talk about the feature, if this wasn't just
           filler text.
     _template: features
-  - headline: Welcome to the Tina Starter
-    text: >
-      This project is set up to show you the basics of working with Tina. You're
-      looking at the landing page, which pulls content from
-      content/pages/home.md, components from components/blocks, and puts them
-      all together in pages/\[filename].tsx, all based on a schema defined in
-      .tina/schema.ts.
-    actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Read Blog
-        type: link
-        icon: false
-        link: /posts
-    image:
-      src: /uploads/Group 34217.png
-      alt: ''
-    color: default
-    _template: hero
 ---
+
 
 
