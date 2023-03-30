@@ -10,6 +10,10 @@
     "nav": [
       {
         "href": "",
+        "label": "Contact us"
+      },
+      {
+        "href": "",
         "label": "Home"
       },
       {
